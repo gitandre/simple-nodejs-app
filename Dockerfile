@@ -1,5 +1,5 @@
 # Getting the base image for this simple node application
-FROM node:12-alpine
+FROM artifacts.bcp.absa.co.za/bison-cloud/node:12-alpine
 # Adding maintainer info. This is optional
 MAINTAINER Dewan Ahmed (dewan.ishtiaque@hotmail.com)
 
