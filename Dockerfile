@@ -14,6 +14,8 @@ COPY package*.json ./
 
 # Getting the package manager
 RUN npm install
+RUN npm config set proxy http://teraco-jhb.intra.absaafrica:8080
+RUN npm config set https-proxy http://teraco-jhb.intra.absaafrica:8080
 
 # Bundle app source
 COPY . /usr/src/app
